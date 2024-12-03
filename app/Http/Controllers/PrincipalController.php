@@ -28,4 +28,8 @@ class PrincipalController extends Controller
     {
         return view('mascotas');
     }
+    public function adopcion()
+    {
+        return view('adopciones');
+    }
 }
